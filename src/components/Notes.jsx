@@ -4,6 +4,7 @@ import './card.css';
 const Card = () => {
     const [notes, setNote] = useState([]);
     const [update, setUpdate] = useState(0);
+
     const hendleUpdate = () => setUpdate(update + 1);
 
     useEffect(() => {
